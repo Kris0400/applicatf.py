@@ -21,7 +21,7 @@ def inférence(regularity,montant,data_volume):
 
    
 #l'utlisateur saisie une valeur pour chaque caractéristique du client
-regularity = st.number_input('REGULARIY:', value=54)
+regularity = st.number_input('REGULARITY:', value=54)
 montant = st.number_input('MONTANT:', value=4250.0)
 data_volume = st.number_input('DATA_VOLUME:', value=4.0)
 
